@@ -46,11 +46,54 @@ def get_content(server,username,password,port):
     content = si.RetrieveContent()
     return content
 
+def get_about_info(content):
+    about_info = {
+        'name': content.about.name,
+        'fullName': content.about.fullName,
+        'version': content.about.version,
+        'build': content.about.build,
+        'apiType': content.about.apiType,
+        'apiVersion': content.about.apiVersion,
+        'productLineId': content.about.productLineId,
+        'instanceUuid': content.about.instanceUuid
+    }
+    return about_info
+
+def get_license_info(content):
+    license = []
+    feature = []
+    for item in content.licenseManager.licenses:
+        lic = {'lic_key': item.licenseKey, 'name': item.name, 
+                'total': item.total, 'used': item.used, 
+                'cost_unit': item.costUnit}
+        license.append(lic)
+        for fet in item.properties:
+            if fet.key == 'feature':
+                feature.append(fet.value.value)
+    return license, feature
+    
+def get_plugin_info(content):
+    '''Get plugin info only from vcenter.'''
+
+    plugin = []
+    for item in content.extensionManager.extensionList:
+        plg = {'name': item.description.label, 'version': item.version,
+                'summary': item.description.summary, 
+                'company': item.company}
+        plugin.append(plg)
+    return plugin
+
+def get_vpx_setting(content):
+    '''vcenter setting'''
+    setting = []
+    for item in content.setting.setting:
+        setting.append({item.key:item.value})
+    return setting
+
 if __name__ == "__main__":  
     args = get_args()
     content = get_content(args.server,args.username,
 		args.password,args.port)
-    print(content)
-
-    
+    setting = get_vpx_setting(content)
+    print(setting)
 

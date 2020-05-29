@@ -1,0 +1,845 @@
+(vim.LicenseManager.LicenseInfo) [
+   (vim.LicenseManager.LicenseInfo) {
+      dynamicType = <unset>,
+      dynamicProperty = (vmodl.DynamicProperty) [],
+      licenseKey = '00000-00000-00000-00000-00000',
+      editionKey = 'eval',
+      name = 'Evaluation Mode',
+      total = 1,
+      used = 1,
+      costUnit = 'host',
+      properties = (vmodl.KeyAnyValue) [
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'ProductName',
+            value = 'VMware ESX Server'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'ProductVersion',
+            value = '6.0'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'evaluation',
+            value = 'License has not been set, evaluation Period in effect.'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'expirationHours',
+            value = 1368
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'expirationMinutes',
+            value = 0
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'expirationDate',
+            value = 2020-07-24T17:21:56.118679Z
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'system_time',
+            value = 2020-05-28T17:21:56.124682Z
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'vsmp:0',
+               value = 'Unlimited virtual SMP'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'h264remote',
+               value = 'H.264 for Remote Console Connections'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'esxHost',
+               value = 'vCenter agent for VMware host'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'vimapi',
+               value = 'vSphere API'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'contentlib',
+               value = 'Content Library'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'vstorage',
+               value = 'Storage APIs'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'vmotion',
+               value = 'vSphere vMotion'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'xswitchvmotion',
+               value = 'X-Switch vMotion'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'das',
+               value = 'vSphere HA'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'dr',
+               value = 'vSphere Data Protection'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'endpoint',
+               value = 'vShield Endpoint'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'replication',
+               value = 'vSphere Replication'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'vshield',
+               value = 'vShield Zones'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'hotplug',
+               value = 'Hot-Pluggable virtual HW'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'svmotion',
+               value = 'vSphere Storage vMotion'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'smartcard',
+               value = 'Shared Smart Card Reader'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'ft:8',
+               value = 'vSphere FT (up to 8 virtual CPUs)'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'vvolumes',
+               value = 'Virtual Volumes'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'storageawarenessapi',
+               value = 'APIs for Storage Awareness'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'spbm',
+               value = 'Storage-Policy Based Management'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'vaai',
+               value = 'vSphere Storage APIs for Array Integration'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'drs',
+               value = 'vSphere DRS'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'serialuri:2',
+               value = 'Remote virtual Serial Port Concentrator'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'mpio',
+               value = 'MPIO / Third-Party Multi-Pathing'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'bigdataex',
+               value = 'Big Data Extensions'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'rem',
+               value = 'Reliable Memory'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'dvs',
+               value = 'vSphere Distributed Switch'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'hostprofile',
+               value = 'vSphere Host Profiles'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'autodeploy',
+               value = 'vSphere Auto Deploy'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'sriov',
+               value = 'SR-IOV'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'sioshares',
+               value = 'vSphere Storage I/O Control'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'dpvmotion',
+               value = 'Direct Path vMotion'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'storagedrs',
+               value = 'vSphere Storage DRS'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'metrovmotion',
+               value = 'vSphere vMotion Metro'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'viewaccel',
+               value = 'vSphere View Accelerator'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'appha',
+               value = 'vSphere App HA'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'vflash',
+               value = 'vSphere Flash Read Cache'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'xvcvmotion',
+               value = 'Cross Virtual Center vMotion'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'vgpu',
+               value = 'vGPU'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'proactiveha',
+               value = 'vSphere Proactive HA'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'vmcrypt',
+               value = 'vSphere VM Encryption'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'encryptedvmotion',
+               value = 'vSphere Encrypted vMotion'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'predictivedrs',
+               value = 'vSphere Predictive DRS'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'pmem',
+               value = 'Persistent Memory'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'appdplugin',
+               value = 'VMware AppDefense vCenter Server Plugin'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'drsmm',
+               value = 'DRS in Maintenance Mode'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'sourceId',
+            value = 'vc'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'FileVersion',
+            value = '6.7.2.1'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e26-c1-201901'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e16-suite-vsom-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e18-robo-c3-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e4-c2-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e2-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e6-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e4-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e8-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e11-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e9-eoem-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e8-eoem-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e24-robo-c3-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e7-eoem-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e1-eoem-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e2-eoem-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e23-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e17-suite-vsom-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e14-suite-vcloud5-c1-201006'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e14-suite-vcloud6-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e19-eoem-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e25-c1-201901'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e6-sub-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e7-sub-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e13-suite-vcloud5-c1-201006'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e13-suite-vcloud6-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-eval-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e5-sub-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e12-suite-vcloud6-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e12-suite-vcloud5-c1-201006'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e3-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e1-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e7-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e3-c2-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e5-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e9-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e10-c3-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e22-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e20-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e5-robo-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e7-robo-c3-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e6-robo-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e15-suite-vsom-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e8-sub-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseFilePath',
+            value = '/usr/lib/vmware/licenses/site/license-esx-60-e9-sub-c1-201306'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'Localized',
+            value = (vmodl.KeyAnyValue) []
+         }
+      ],
+      labels = (vim.KeyValue) []
+   }
+]

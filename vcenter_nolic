@@ -1,0 +1,687 @@
+(vim.LicenseManager.LicenseInfo) [
+   (vim.LicenseManager.LicenseInfo) {
+      dynamicType = <unset>,
+      dynamicProperty = (vmodl.DynamicProperty) [],
+      licenseKey = '00000-00000-00000-00000-00000',
+      editionKey = 'eval',
+      name = 'Product Evaluation',
+      total = 0,
+      used = <unset>,
+      costUnit = '',
+      properties = (vmodl.KeyAnyValue) [
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'Localized',
+            value = (vmodl.KeyAnyValue) []
+         }
+      ],
+      labels = (vim.KeyValue) []
+   },
+   (vim.LicenseManager.LicenseInfo) {
+      dynamicType = <unset>,
+      dynamicProperty = (vmodl.DynamicProperty) [],
+      licenseKey = 'HH08P-2W38N-D8Q8M-0J3A4-ANN0J',
+      editionKey = 'esx.standard.cpuPackage',
+      name = 'VMware vSphere 6 Standard',
+      total = 6,
+      used = 6,
+      costUnit = 'cpuPackage',
+      properties = (vmodl.KeyAnyValue) [
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseInfo',
+            value = (vim.LicenseManager.LicenseInfo) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               licenseKey = 'HH08P-2W38N-D8Q8M-0J3A4-ANN0J',
+               editionKey = 'esx.standard.cpuPackage',
+               name = 'VMware vSphere 6 Standard',
+               total = 6,
+               used = <unset>,
+               costUnit = 'cpuPackage',
+               properties = (vmodl.KeyAnyValue) [
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'ProductName',
+                     value = 'VMware ESX Server'
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'ProductVersion',
+                     value = '6.0'
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'FileVersion',
+                     value = '6.7.2.1'
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'vsmp:0',
+                        value = 'Unlimited virtual SMP'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'h264remote',
+                        value = 'H.264 for Remote Console Connections'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'esxHost',
+                        value = 'vCenter agent for VMware host'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'vimapi',
+                        value = 'vSphere API'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'contentlib',
+                        value = 'Content Library'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'vstorage',
+                        value = 'Storage APIs'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'vmotion',
+                        value = 'vSphere vMotion'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'xswitchvmotion',
+                        value = 'X-Switch vMotion'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'das',
+                        value = 'vSphere HA'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'dr',
+                        value = 'vSphere Data Protection'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'endpoint',
+                        value = 'vShield Endpoint'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'replication',
+                        value = 'vSphere Replication'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'vshield',
+                        value = 'vShield Zones'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'hotplug',
+                        value = 'Hot-Pluggable virtual HW'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'svmotion',
+                        value = 'vSphere Storage vMotion'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'smartcard',
+                        value = 'Shared Smart Card Reader'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'ft:2',
+                        value = 'vSphere FT (up to 2 virtual CPUs)'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'vvolumes',
+                        value = 'Virtual Volumes'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'storageawarenessapi',
+                        value = 'APIs for Storage Awareness'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'spbm',
+                        value = 'Storage-Policy Based Management'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'vaai',
+                        value = 'vSphere Storage APIs for Array Integration'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'feature',
+                     value = (vim.KeyValue) {
+                        dynamicType = <unset>,
+                        dynamicProperty = (vmodl.DynamicProperty) [],
+                        key = 'serialuri:2',
+                        value = 'Remote virtual Serial Port Concentrator'
+                     }
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'Localized',
+                     value = (vmodl.KeyAnyValue) []
+                  }
+               ],
+               labels = (vim.KeyValue) []
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'ProductName',
+            value = 'VMware ESX Server'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'ProductVersion',
+            value = '6.0'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'FileVersion',
+            value = '6.7.2.1'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'vsmp:0',
+               value = 'Unlimited virtual SMP'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'h264remote',
+               value = 'H.264 for Remote Console Connections'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'esxHost',
+               value = 'vCenter agent for VMware host'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'vimapi',
+               value = 'vSphere API'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'contentlib',
+               value = 'Content Library'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'vstorage',
+               value = 'Storage APIs'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'vmotion',
+               value = 'vSphere vMotion'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'xswitchvmotion',
+               value = 'X-Switch vMotion'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'das',
+               value = 'vSphere HA'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'dr',
+               value = 'vSphere Data Protection'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'endpoint',
+               value = 'vShield Endpoint'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'replication',
+               value = 'vSphere Replication'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'vshield',
+               value = 'vShield Zones'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'hotplug',
+               value = 'Hot-Pluggable virtual HW'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'svmotion',
+               value = 'vSphere Storage vMotion'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'smartcard',
+               value = 'Shared Smart Card Reader'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'ft:2',
+               value = 'vSphere FT (up to 2 virtual CPUs)'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'vvolumes',
+               value = 'Virtual Volumes'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'storageawarenessapi',
+               value = 'APIs for Storage Awareness'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'spbm',
+               value = 'Storage-Policy Based Management'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'vaai',
+               value = 'vSphere Storage APIs for Array Integration'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'feature',
+            value = (vim.KeyValue) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               key = 'serialuri:2',
+               value = 'Remote virtual Serial Port Concentrator'
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'Localized',
+            value = (vmodl.KeyAnyValue) []
+         }
+      ],
+      labels = (vim.KeyValue) []
+   },
+   (vim.LicenseManager.LicenseInfo) {
+      dynamicType = <unset>,
+      dynamicProperty = (vmodl.DynamicProperty) [],
+      licenseKey = 'N068P-0901H-8829A-0KAK4-3056J',
+      editionKey = 'vc.foundation.instance',
+      name = 'VMware vCenter Server 6 Foundation',
+      total = 1,
+      used = 1,
+      costUnit = 'server',
+      properties = (vmodl.KeyAnyValue) [
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'LicenseInfo',
+            value = (vim.LicenseManager.LicenseInfo) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               licenseKey = 'N068P-0901H-8829A-0KAK4-3056J',
+               editionKey = 'vc.foundation.instance',
+               name = 'VMware vCenter Server 6 Foundation',
+               total = 1,
+               used = <unset>,
+               costUnit = 'server',
+               properties = (vmodl.KeyAnyValue) [
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'ProductName',
+                     value = 'VMware VirtualCenter Server'
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'ProductVersion',
+                     value = '6.0'
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'FileVersion',
+                     value = '6.7.0.0'
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'disallowedHostEditions',
+                     value = 'esx.hypervisor.cpuPackage,esx.hypervisorEmbeddedOem.cpuPackage,esx.essentials.cpuPackage,esx.essentialsSubscription.cpuPackage,esx.essentialsPlus.cpuPackage,esx.essentialsPlusSubscription.cpuPackage,esxBasic,esxBasic.vram,esxBasic.embeddedOem,esxExpress,esxExpress.vram,esxExpressPlus,esxExpressPlus.vram'
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'maxHOST',
+                     value = 4
+                  },
+                  (vmodl.KeyAnyValue) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     key = 'Localized',
+                     value = (vmodl.KeyAnyValue) []
+                  }
+               ],
+               labels = (vim.KeyValue) []
+            }
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'ProductName',
+            value = 'VMware VirtualCenter Server'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'ProductVersion',
+            value = '6.0'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'FileVersion',
+            value = '6.7.0.0'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'disallowedHostEditions',
+            value = 'esx.hypervisor.cpuPackage,esx.hypervisorEmbeddedOem.cpuPackage,esx.essentials.cpuPackage,esx.essentialsSubscription.cpuPackage,esx.essentialsPlus.cpuPackage,esx.essentialsPlusSubscription.cpuPackage,esxBasic,esxBasic.vram,esxBasic.embeddedOem,esxExpress,esxExpress.vram,esxExpressPlus,esxExpressPlus.vram'
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'maxHOST',
+            value = 4
+         },
+         (vmodl.KeyAnyValue) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'Localized',
+            value = (vmodl.KeyAnyValue) []
+         }
+      ],
+      labels = (vim.KeyValue) []
+   }
+]
